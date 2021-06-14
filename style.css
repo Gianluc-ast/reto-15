@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/*Menu y navegador posicion y medida*/
+nav{
+
+    margin: 0em;
+    padding: 0em;
+    align-items: center;
+    height: 100px;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    z-index:4; 
+    background-image: url(LOGO/fondoneo.png);
+   
+}
+
+
+/*El menu y formas de enlace*/
+li a{
+
+    font-weight: bold;
+    line-height: 20px;
+    list-style-type:none;
+    text-decoration: none;
+    letter-spacing: 0.3px;
+    font-size: 2em;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    transition: all 2s;
+   
+    
+}
+
+/*Posicionamiento de enlaces*/
+.pruebaFlex{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+/*CLASE DE LI QUE AGRUPA A LOS ENLACE*/
+.letraMe:hover {
+    padding-bottom: 20px;
+    text-align: center;
+    transform: scale(1.01);
+
+
+
+}
+
+/*logo que va en la barra de menu */
+#fotoNeofut{
+   width: 120px;
+   height: 120px;
+
+   margin: 0%;
+}
+/*FONDO DE TODO MENOS NAV*/
+
+.intento{
+    background-image: url(LOGO/fondoneo.png);
+}
+
+
+.videoNeo{
+    border-radius: 5px;
+    background-color: goldenrod;
+    width: 60%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20em;
+    transition: all 1.5s;
+}
+
+
+.pruebaFlex{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+/*Texto pagina 1 trayectoria*/
+.pruebaDosFlex{
+    display: flex;
+    justify-content: start;
+    margin-top: 20px;
+    
+    
+}
+
+/* */
+
+.imagenBanner{
+    width: 100%;
+    height: auto;
+    margin: 0em;
+    padding-top: 4.5em;
+
+   
+
+}
+
+
+/*Titulos de las secciones*/
+#titulos{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: white;
+    font-weight: bold;
+    font-size: 4em;
+    text-align: center;
+    margin: 0em;
+    padding: 0em;
+    background-image: linear-gradient(black,gold);
+}
+
+
+/*Texto de la historia*/
+.textoUno{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 1em;
+    padding: 0em;
+    
+
+}
+
+/*Texto de servicio Neofut*/
+#textoDos{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0em;
+    padding: 0em;
+
+}
+
+.videoGol{
+    border-style: solid;
+    padding-right: 10px;
+}
+
+
+#serviciosNeofut{
+    background-image: url(LOGO/fondoneo.png);
+}
+
+/*Servicio detallada en lista*/
+#servicioTd{
+
+  
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+    list-style: inside;
+
+
+}
+
+.parteBaja{
+    background-color:goldenrod;
+    align-items: top;
+}
+
+#benjaminA {
+
+background-color:rgb(20, 126, 20);
+
+font-size: 2em;
+font-weight: bold;
+color: white;
+border-radius: 30px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+
+}
+
+
+#diegoS {
+
+    background-color:goldenrod;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+    }
+
+#eduardoP {
+    background-color: black;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+
+
+}
+
+.parteBajaDos {
+    background-color: gold;
+
+}
+
+.menuFotosNueva{
+    /*Habilitada propiedades de flexbox - clave secreta de 12 palabras*/ 
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:nowrap;
+    padding-top: 80px;
+    width: 100%;
+    background-color: black;
+
+
+
+}
+
+
+.benja, .diego, .neo {
+   height: 350px;
+   width: 350px;
+   transition: all 1.5s;
+
+}
+
+.benja:hover, .diego:hover, .neo:hover{
+    transform: scale(2) translateY(20px) translateX(20px);
+    display: flex;
+    z-index: 15;
+
+}
+
+.historia{
+    display: flex;
+    justify-content: flex-start;
+
+}
+.parteBaja{
+    background-color: black;
+    width: 100%;
+    height: 40px;
+}
+
+.secBan{
+    align-items: center;
+}
+
+.imagenEsencia{
+    width: 100%;
+}
